@@ -30,28 +30,28 @@ const Enrollment = () => {
       id: "python-ds",
       title: "Python Data Science Mastery",
       duration: "6 months",
-      price: "$2,999",
+      price: "Rs.2,999",
       level: "Beginner to Advanced"
     },
     {
       id: "llm-dev",
       title: "LLM Development & Fine-tuning",
       duration: "4 months", 
-      price: "$3,499",
+      price: "Rs.3,499",
       level: "Intermediate to Advanced"
     },
     {
       id: "ml-complete",
       title: "Complete Machine Learning",
       duration: "8 months",
-      price: "$3,999",
+      price: "Rs.3,999",
       level: "Beginner to Advanced"
     },
     {
       id: "ai-bundle",
       title: "Complete AI Bundle",
       duration: "12 months",
-      price: "$6,999",
+      price: "Rs.6,999",
       level: "All Levels"
     }
   ];
