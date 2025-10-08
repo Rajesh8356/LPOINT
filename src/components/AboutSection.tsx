@@ -33,23 +33,7 @@ const AboutSection = () => {
     { metric: "24/7", label: "AI Support Available" }
   ];
 
-  const team = [
-    {
-      name: "Dr. Sarah Chen",
-      role: "CEO & Co-Founder",
-      background: "Former AI Research Director at Google, PhD in Computer Science from Stanford"
-    },
-    {
-      name: "Michael Rodriguez",
-      role: "CTO & Co-Founder", 
-      background: "Ex-Microsoft Principal Engineer, 15+ years in enterprise AI solutions"
-    },
-    {
-      name: "Dr. Priya Patel",
-      role: "Head of AI Research",
-      background: "Former Research Scientist at OpenAI, PhD in Machine Learning from MIT"
-    }
-  ];
+ 
 
   return (
     <section id="about" className="py-20 bg-background">
@@ -128,39 +112,6 @@ const AboutSection = () => {
           </div>
         </div>
 
-        {/* Leadership Team */}
-        <div className="mb-16">
-          <div className="text-center mb-12">
-            <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-4">
-              Leadership Team
-            </h3>
-            <p className="text-lg text-muted-foreground">
-              World-class experts driving AI innovation
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <Card key={index} className="bg-card-gradient border-0 shadow-card hover:shadow-glow transition-all duration-300">
-                <CardHeader className="text-center">
-                  <div className="w-24 h-24 bg-primary-gradient rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <Users className="h-12 w-12 text-primary-foreground" />
-                  </div>
-                  <CardTitle className="text-xl">{member.name}</CardTitle>
-                  <Badge variant="secondary" className="mx-auto">
-                    {member.role}
-                  </Badge>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-center text-muted-foreground">
-                    {member.background}
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-
         {/* Company Timeline */}
         <div className="text-center">
           <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-8">
@@ -171,7 +122,7 @@ const AboutSection = () => {
               {[
                 { year: "2020", event: "LPOINT Founded", description: "Started with a vision to democratize AI" },
                 { year: "2021", event: "First Product Launch", description: "AI Mock Interview platform goes live" },
-                { year: "2022", event: "Series A Funding", description: "$15M raised to expand product suite" },
+                { year: "2022", event: "Series A Funding", description: "15M raised to expand product suite" },
                 { year: "2024", event: "Global Expansion", description: "Serving 500+ companies worldwide" }
               ].map((milestone, index) => (
                 <Card key={index} className="text-center p-6 bg-card-gradient border-0">
