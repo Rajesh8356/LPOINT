@@ -133,7 +133,7 @@ const Enrollment = () => {
                               {course.duration}
                             </div>
                             <div className="flex items-center">
-                              <DollarSign className="w-4 h-4 mr-1" />
+                              
                               {course.price}
                             </div>
                             <div className="flex items-center">
