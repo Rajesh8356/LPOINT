@@ -86,7 +86,7 @@ export const SuccessStories = () => {
         <div>
           <div className="font-semibold">{story.name}</div>
           <div className="text-sm text-muted-foreground">{story.role}</div>
-          <Badge variant="secondary" className="mt-2">{story.company}</Badge>
+        
         </div>
         <div className="flex justify-center space-x-2">
           {stories.map((_, index) => (
