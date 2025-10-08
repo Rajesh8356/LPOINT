@@ -42,7 +42,7 @@ const MockInterview = () => {
   const plans = [
     {
       name: "Basic",
-      price: "$29",
+      price: "Rs. 1500",
       period: "/month",
       features: [
         "5 interviews per month",
@@ -53,7 +53,7 @@ const MockInterview = () => {
     },
     {
       name: "Professional",
-      price: "$79",
+      price: "Rs. 3000",
       period: "/month",
       features: [
         "Unlimited interviews",
