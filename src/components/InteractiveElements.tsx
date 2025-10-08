@@ -47,21 +47,21 @@ export const SuccessStories = () => {
       role: "ML Engineer",
       story: "LPOINT's internship program gave me the hands-on experience I needed to land my dream job.",
       rating: 5,
-      company: "Google"
+      
     },
     {
       name: "Alex Rodriguez",
       role: "Data Scientist",
       story: "The mentorship and real projects at LPOINT prepared me for the challenges in industry.",
       rating: 5,
-      company: "Microsoft"
+      
     },
     {
       name: "Priya Patel",
       role: "AI Researcher",
       story: "LPOINT's LLM specialization track was exactly what I needed to break into AI research.",
       rating: 5,
-      company: "OpenAI"
+      
     }
   ];
 
