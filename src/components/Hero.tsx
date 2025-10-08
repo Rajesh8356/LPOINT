@@ -55,21 +55,20 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in">
-            <div className="text-center transform hover:scale-105 transition-transform">
-              <div className="text-3xl font-bold text-blue-900 mb-2">100+</div>
-              <div className="text-primary-foreground/70">Custom AI Projects</div>
-            </div>
-            <div className="text-center transform hover:scale-105 transition-transform">
-              <div className="text-3xl font-bold text-blue-900 mb-2">500+</div>
-              <div className="text-primary-foreground/70">Satisfied Clients</div>
-            </div>
-            <div className="text-center transform hover:scale-105 transition-transform">
-              <div className="text-3xl font-bold text-blue-900 mb-2">24/7</div>
-              <div className="text-primary-foreground/70">AI Support</div>
-            </div>
-          </div>
-        </div> {/* ✅ This closes the `text-center max-w-4xl mx-auto` div */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in">
+              <div className="text-center transform hover:scale-105 transition-transform">
+                <div className="text-3xl font-bold text-blue-900 drop-shadow-md mb-2">100+</div>
+                <div className="text-primary-foreground/90">Custom AI Projects</div>
+              </div>
+              <div className="text-center transform hover:scale-105 transition-transform">
+                <div className="text-3xl font-bold text-blue-900 drop-shadow-md mb-2">500+</div>
+                <div className="text-primary-foreground/90">Satisfied Clients</div>
+              </div>
+              <div className="text-center transform hover:scale-105 transition-transform">
+                <div className="text-3xl font-bold text-blue-900 drop-shadow-md mb-2">24/7</div>
+                <div className="text-primary-foreground/90">AI Support</div>
+              </div>
+            </div> {/* ✅ This closes the `text-center max-w-4xl mx-auto` div */}
 
         {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
