@@ -55,22 +55,22 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
+         {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in">
             <div className="text-center transform hover:scale-105 transition-transform">
-              <div className="text-3xl font-bold text-primary-foreground mb-2 bg-ai-gradient bg-clip-text text-transparent">100+</div>
+              <div className="text-3xl font-bold text-blue-900 mb-2">100+</div>
               <div className="text-primary-foreground/70">Custom AI Projects</div>
             </div>
             <div className="text-center transform hover:scale-105 transition-transform">
-              <div className="text-3xl font-bold text-primary-foreground mb-2 bg-ai-gradient bg-clip-text text-transparent">500+</div>
+              <div className="text-3xl font-bold text-blue-900 mb-2">500+</div>
               <div className="text-primary-foreground/70">Satisfied Clients</div>
             </div>
             <div className="text-center transform hover:scale-105 transition-transform">
-              <div className="text-3xl font-bold text-primary-foreground mb-2 bg-ai-gradient bg-clip-text text-transparent">24/7</div>
+              <div className="text-3xl font-bold text-blue-900 mb-2">24/7</div>
               <div className="text-primary-foreground/70">AI Support</div>
             </div>
           </div>
-        </div>
-      </div>
+
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
