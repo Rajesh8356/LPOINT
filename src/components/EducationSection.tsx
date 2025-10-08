@@ -153,7 +153,7 @@ const EducationSection = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Sarah Chen", role: "ML Engineer at Google", quote: "LPOINT's Python course transformed my career path completely." },
+              { name: "Sarah Chen", role: "ML Engineer", quote: "LPOINT's Python course transformed my career path completely." },
               { name: "Raj Patel", role: "AI Researcher", quote: "The LLM program gave me the expertise to lead AI initiatives at my company." },
               { name: "Emily Rodriguez", role: "Data Scientist", quote: "The internship program provided invaluable real-world experience." }
             ].map((story, index) => (
