@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.jpeg";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,10 +14,12 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold bg-primary-gradient bg-clip-text text-transparent">
-              LPOINT
+              <img 
+                src={logo} 
+                alt="LPOINT Logo" 
+                className="h-10 w-auto"
+              />
             </div>
-          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
