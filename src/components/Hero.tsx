@@ -55,7 +55,6 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-         {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in">
             <div className="text-center transform hover:scale-105 transition-transform">
               <div className="text-3xl font-bold text-blue-900 mb-2">100+</div>
@@ -70,16 +69,17 @@ const Hero = () => {
               <div className="text-primary-foreground/70">AI Support</div>
             </div>
           </div>
+        </div> {/* ✅ This closes the `text-center max-w-4xl mx-auto` div */}
 
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-        <div className="animate-bounce">
-          <div className="w-6 h-10 border-2 border-primary-foreground/30 rounded-full p-1">
-            <div className="w-1 h-3 bg-primary-foreground/50 rounded-full mx-auto animate-pulse" />
+        {/* Scroll indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+          <div className="animate-bounce">
+            <div className="w-6 h-10 border-2 border-primary-foreground/30 rounded-full p-1">
+              <div className="w-1 h-3 bg-primary-foreground/50 rounded-full mx-auto animate-pulse" />
+            </div>
           </div>
         </div>
-      </div>
+      </div> {/* ✅ This closes the `relative z-10 container` div */}
     </section>
   );
 };
