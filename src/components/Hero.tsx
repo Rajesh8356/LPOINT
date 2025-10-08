@@ -8,11 +8,11 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-hero-gradient opacity-90" />
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
-      
+
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 pt-16">
         <div className="text-center max-w-4xl mx-auto">
@@ -48,27 +48,32 @@ const Hero = () => {
               </Button>
             </Link>
             <Link to="/enrollment">
-              <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white/30 text-primary-foreground hover:bg-white/20 hover:shadow-glow">
+              <Button
+                variant="outline"
+                size="lg"
+                className="bg-white/10 backdrop-blur-sm border-white/30 text-primary-foreground hover:bg-white/20 hover:shadow-glow"
+              >
                 Learn AI/ML Skills
               </Button>
             </Link>
           </div>
 
           {/* Stats */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in">
-              <div className="text-center transform hover:scale-105 transition-transform">
-                <div className="text-3xl font-bold text-blue-900 drop-shadow-md mb-2">100+</div>
-                <div className="text-primary-foreground/90">Custom AI Projects</div>
-              </div>
-              <div className="text-center transform hover:scale-105 transition-transform">
-                <div className="text-3xl font-bold text-blue-900 drop-shadow-md mb-2">500+</div>
-                <div className="text-primary-foreground/90">Satisfied Clients</div>
-              </div>
-              <div className="text-center transform hover:scale-105 transition-transform">
-                <div className="text-3xl font-bold text-blue-900 drop-shadow-md mb-2">24/7</div>
-                <div className="text-primary-foreground/90">AI Support</div>
-              </div>
-            </div> {/* ✅ This closes the `text-center max-w-4xl mx-auto` div */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-in">
+            <div className="text-center transform hover:scale-105 transition-transform">
+              <div className="text-3xl font-bold text-blue-900 drop-shadow-md mb-2">100+</div>
+              <div className="text-primary-foreground/90">Custom AI Projects</div>
+            </div>
+            <div className="text-center transform hover:scale-105 transition-transform">
+              <div className="text-3xl font-bold text-blue-900 drop-shadow-md mb-2">500+</div>
+              <div className="text-primary-foreground/90">Satisfied Clients</div>
+            </div>
+            <div className="text-center transform hover:scale-105 transition-transform">
+              <div className="text-3xl font-bold text-blue-900 drop-shadow-md mb-2">24/7</div>
+              <div className="text-primary-foreground/90">AI Support</div>
+            </div>
+          </div>
+        </div> {/* ✅ closes text-center max-w-4xl mx-auto */}
 
         {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
@@ -78,7 +83,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div> {/* ✅ This closes the `relative z-10 container` div */}
+      </div> {/* ✅ closes container div */}
     </section>
   );
 };
