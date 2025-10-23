@@ -112,28 +112,7 @@ const AboutSection = () => {
           </div>
         </div>
 
-        {/* Company Timeline */}
-        <div className="text-center">
-          <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-8">
-            Our Journey
-          </h3>
-          <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                { year: "2020", event: "LPOINT Founded", description: "Started with a vision to democratize AI" },
-                { year: "2021", event: "First Product Launch", description: "AI Mock Interview platform goes live" },
-                { year: "2022", event: "Series A Funding", description: "15M raised to expand product suite" },
-                { year: "2024", event: "Global Expansion", description: "Serving 500+ companies worldwide" }
-              ].map((milestone, index) => (
-                <Card key={index} className="text-center p-6 bg-card-gradient border-0">
-                  <div className="text-2xl font-bold text-primary mb-2">{milestone.year}</div>
-                  <div className="font-semibold text-foreground mb-2">{milestone.event}</div>
-                  <div className="text-sm text-muted-foreground">{milestone.description}</div>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
